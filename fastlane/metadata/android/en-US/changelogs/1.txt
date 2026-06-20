@@ -1,0 +1,1 @@
+Initial Android release. Native Material 3 app mirroring the iOS FreeFood: share free leftover food nearby, browse a map, post recurring giveaways, and filter by distance and country.

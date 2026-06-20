@@ -1,0 +1,17 @@
+FreeFood helps communities reduce food waste by sharing real, available free food from events, offices, meetups, bakeries and community spaces.
+
+Post a listing in seconds with a title, details, date, start and end time, up to three photos, and the pickup location. Browse a searchable feed that highlights the nearest available food first, or explore everything on a map.
+
+KEY FEATURES
+• Nearby feed — the closest available free food is surfaced first when location is on.
+• Map view — browse listings as map markers and open details with one tap.
+• Search — filter by location, title, or event details.
+• Photos — attach up to three photos to a listing.
+• Recurring giveaways — bakeries and stalls can post a daily or weekly giveaway once; it rolls forward automatically.
+• Subscribe — follow recurring giveaways so they always appear.
+• Country & distance filters — choose how far and where to look.
+• Auto-expiry — one-time posts disappear after they end (and within 7 days) to keep the feed fresh.
+
+FreeFood is the Android companion to the iOS app of the same name. Please post only real, available food — don't create fictitious events.
+
+Developed by Tertiary Infotech Academy Pte. Ltd.

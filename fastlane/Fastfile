@@ -1,0 +1,32 @@
+default_platform(:android)
+
+platform :android do
+  desc "Build the signed release App Bundle (.aab)"
+  lane :build do
+    gradle(task: "clean")
+    gradle(task: "bundle", build_type: "Release")
+  end
+
+  desc "Upload metadata, screenshots and the signed AAB to Google Play closed testing"
+  desc "Usage: fastlane closed track:closed     (or track:internal / track:production)"
+  lane :closed do |options|
+    track = options[:track] || "closed"
+    gradle(task: "bundle", build_type: "Release")
+    upload_to_play_store(
+      track: track,
+      release_status: "draft", # review the release in Play Console before rolling out
+      aab: "app/build/outputs/bundle/release/app-release.aab",
+      skip_upload_apk: true,
+      metadata_path: "fastlane/metadata/android",
+    )
+  end
+
+  desc "Upload only store listing metadata + images (no binary)"
+  lane :metadata do
+    upload_to_play_store(
+      skip_upload_aab: true,
+      skip_upload_apk: true,
+      metadata_path: "fastlane/metadata/android",
+    )
+  end
+end

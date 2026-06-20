@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="1024"
+    android:viewportHeight="1024">
+    <!-- Content scaled to ~62% around center for the adaptive-icon safe zone -->
+    <group android:pivotX="512" android:pivotY="512" android:scaleX="0.62" android:scaleY="0.62">
+        <!-- bowl -->
+        <path android:pathData="M259,486c0,-61 49,-110 110,-110h286c61,0 110,49 110,110v36H259v-36z"
+            android:fillColor="#27513D" />
+        <path android:pathData="M287,504h450c-18,157 -111,265 -225,265S305,661 287,504z"
+            android:fillColor="#E8F3E3" />
+        <path android:pathData="M274,486c0,-33 27,-60 60,-60h356c33,0 60,27 60,60s-27,60 -60,60H334c-33,0 -60,-27 -60,-60z"
+            android:fillColor="#FFFDF6" />
+        <!-- food mound -->
+        <path android:pathData="M334,459c55,-94 153,-149 255,-130 74,14 131,62 160,126 -11,31 -41,53 -76,53H355c-17,0 -29,-18 -21,-49z"
+            android:fillColor="#EF5E4A" />
+        <path android:pathData="M433,407c20,-64 82,-111 155,-111 74,0 137,49 156,116 -41,-25 -94,-40 -151,-40 -60,0 -115,13 -160,35z"
+            android:fillColor="#FFB24F" />
+        <path android:pathData="M352,498c22,-54 92,-96 176,-96 86,0 158,43 179,99 -43,-20 -105,-33 -177,-33 -73,0 -136,12 -178,30z"
+            android:fillColor="#F1654E" />
+        <!-- leaves -->
+        <path android:pathData="M593,274c57,6 102,50 111,107 -46,-22 -102,-34 -162,-30 5,-42 23,-67 51,-77z"
+            android:fillColor="#2A9D67" />
+        <path android:pathData="M580,282c-27,47 -68,82 -122,101 6,-75 52,-119 122,-101z"
+            android:fillColor="#67BD5A" />
+        <!-- egg / fried egg motif -->
+        <path android:pathData="M512,568c-72,0 -130,-58 -130,-130 0,-102 130,-213 130,-213s130,111 130,213c0,72 -58,130 -130,130z"
+            android:fillColor="#FFFFFF" />
+        <path android:pathData="M512,438 m-61,0 a61,61 0 1,0 122,0 a61,61 0 1,0 -122,0z"
+            android:fillColor="#2C8F5B" />
+        <path android:pathData="M481,438c0,-17 14,-31 31,-31s31,14 31,31 -14,31 -31,31 -31,-14 -31,-31z"
+            android:fillColor="#FFF7E1" />
+    </group>
+</vector>
