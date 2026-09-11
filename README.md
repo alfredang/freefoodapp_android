@@ -11,6 +11,8 @@
 
 **A native Android app for sharing leftover food nearby and reducing food waste.**
 
+[<img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" height="80">](https://play.google.com/store/apps/details?id=com.tertiaryinfotech.freefood)
+
 [Report Bug](https://github.com/alfredang/freefoodapp_android/issues) · [Request Feature](https://github.com/alfredang/freefoodapp_android/issues)
 
 </div>
@@ -137,9 +139,10 @@ keyPassword=********
 
 ## Google Play
 
-Closed-testing release assets (listing copy, 512 icon, 1024×500 feature graphic, phone
-screenshots) live in `fastlane/metadata/android/en-US/`. See **[PLAY_STORE.md](PLAY_STORE.md)**
-for the manual Console steps and the Fastlane (`fastlane closed`) automation.
+FreeFood is available to **[download from Google Play](https://play.google.com/store/apps/details?id=com.tertiaryinfotech.freefood)**.
+Store listing assets (copy, 512 icon, 1024×500 feature graphic, and phone screenshots)
+live in `fastlane/metadata/android/en-US/`. See **[PLAY_STORE.md](PLAY_STORE.md)** for
+the Play Console and Fastlane release workflow.
 
 ## Data & Privacy
 

@@ -4,6 +4,7 @@
 /local.properties
 /.idea/
 .DS_Store
+.playwright-mcp/
 /build
 /captures
 .externalNativeBuild
@@ -13,6 +14,14 @@ app/build/
 build/
 
 # Signing — NEVER commit these
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
 keystore.properties
 keystore/
 *.jks
