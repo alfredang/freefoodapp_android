@@ -37,3 +37,8 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots
 fastlane/test_output
+
+# Secrets, local config, build output, archives and source material — never pushed
+.kotlin/
+*.zip
+**/reference/
